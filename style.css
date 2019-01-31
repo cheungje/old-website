@@ -1,6 +1,35 @@
-h1 {
-  text-align: center;
+body {
+  font-family: "Noto Serif SC", serif;
+  background-color: #ecf0f1;
 }
-p {
-  text-align: center;
+
+header, section {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header ul li {
+  margin-left: 12px;
+}
+
+header ul li a {
+  color: #B53471;
+  text-decoration: none;
+  transition: 0.25s ease color;
+}
+
+header ul li a:hover {
+  color: #6F1E51;
 }
