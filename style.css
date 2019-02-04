@@ -3,7 +3,7 @@ body {
   background-color: #f1f2f6;
 }
 
-header, section {
+header, section, footer {
   max-width: 760px;
   margin-left: auto;
   margin-right: auto;
@@ -28,7 +28,7 @@ header ul li {
   border-radius: 50%;
   float: right;
   margin: 12px 0 24px 24px;
-  width: 280px;
+  width: 240px;
 }
 
 figure {
@@ -57,4 +57,30 @@ a {
 
 a:hover {
   color: #6f1e51;
+}
+
+footer {
+  margin-top: 48px;
+}
+
+footer ul {
+  display: table;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+footer ul li {
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 8px;
+}
+
+footer ul li a {
+  color: #666;
+  text-decoration: none;
+  transition: 0.25s ease all;
+}
+
+footer ul li a:hover {
+  color: #333;
 }
