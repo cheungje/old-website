@@ -1,6 +1,6 @@
 body {
   font-family: "Noto Serif SC", serif;
-  background-color: #ecf0f1;
+  background-color: #f1f2f6;
 }
 
 header, section {
@@ -10,9 +10,9 @@ header, section {
 }
 
 header {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 header ul {
@@ -21,15 +21,40 @@ header ul {
 }
 
 header ul li {
-  margin-left: 12px;
+  margin-left: 20px;
 }
 
-header ul li a {
-  color: #B53471;
+#profile {
+  border-radius: 50%;
+  float: right;
+  margin: 12px 0 24px 24px;
+  width: 280px;
+}
+
+figure {
+  margin: 24px auto;
+  max-width: 75%;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+figcaption {
+  color: #666;
+  font-size: 13px;
+  font-style: italic;
+  margin-top: 8px;
+  text-align: center;
+}
+
+a {
+  color: #b53471;
   text-decoration: none;
   transition: 0.25s ease color;
 }
 
-header ul li a:hover {
-  color: #6F1E51;
+a:hover {
+  color: #6f1e51;
 }
